@@ -6,11 +6,11 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
-  <PropertyGroup>
-	<ContainerImageName>products-crud-api</ContainerImageName>
-	<ContainerImageTags>latest</ContainerImageTags>
-	<PublishProfile>DefaultContainer</PublishProfile>
-	<RuntimeIdentifier>linux-x64</RuntimeIdentifier>
+<PropertyGroup>
+    <ContainerRepository>products-crud-api</ContainerRepository>
+    <ContainerImageTags>latest</ContainerImageTags>
+    <PublishProfile>DefaultContainer</PublishProfile>
+    <RuntimeIdentifier>linux-x64</RuntimeIdentifier>
 </PropertyGroup>
 
   <ItemGroup>
