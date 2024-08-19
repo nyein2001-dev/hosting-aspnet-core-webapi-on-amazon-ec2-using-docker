@@ -12,7 +12,7 @@ using ProductCRUD.API;
 namespace ProductCRUD.API.Migrations
 {
     [DbContext(typeof(ProductDbContext))]
-    [Migration("20230330161515_Initial")]
+    [Migration("20240819160343_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -20,7 +20,7 @@ namespace ProductCRUD.API.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "7.0.4")
+                .HasAnnotation("ProductVersion", "8.0.8")
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
